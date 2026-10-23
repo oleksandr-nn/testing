@@ -1,0 +1,104 @@
+Asus@ASUS MINGW64 ~/testing (main)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 7 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+Asus@ASUS MINGW64 ~/testing (main)
+$ git branch
+  feature
+* main
+
+Asus@ASUS MINGW64 ~/testing (main)
+$ git log
+commit 4cb6ce4099fca89487f2901db8a072eaf82e3229 (HEAD -> main, testing/main)
+Author: oleksandr-nn <oleksandrn1106@gmail.com>
+Date:   Fri Oct 23 10:03:26 2026 +0300
+
+    Add positive exam result message to text.txt
+
+commit 23d0bbf71a56c90bdad44732c92d7ddfb1a0fc12
+Merge: ff9b279 648e6db
+Author: Oleksandr <oleksandrn1106@gmail.com>
+Date:   Fri Oct 23 10:01:37 2026 +0300
+
+    fixed merge conflict
+
+commit ff9b279fddb9902e40cbaa894febbeb8d671aebc
+Author: Oleksandr <oleksandrn1106@gmail.com>
+Date:   Fri Oct 23 09:58:56 2026 +0300
+
+    lowered text hello
+
+commit 648e6dbf8ab6076eef3a8e31824ddb01246e0068 (testing/feature, feature)
+Author: Oleksandr <oleksandrn1106@gmail.com>
+Date:   Fri Oct 23 09:54:46 2026 +0300
+
+    added another sentence
+
+commit 2e5eba7123b5fbb24f32636c6dcf4a26f90b6725
+:
+commit 4cb6ce4099fca89487f2901db8a072eaf82e3229 (HEAD -> main, testing/main)
+Author: oleksandr-nn <oleksandrn1106@gmail.com>
+Date:   Fri Oct 23 10:03:26 2026 +0300
+
+    Add positive exam result message to text.txt
+
+commit 23d0bbf71a56c90bdad44732c92d7ddfb1a0fc12
+Merge: ff9b279 648e6db
+Author: Oleksandr <oleksandrn1106@gmail.com>
+Date:   Fri Oct 23 10:01:37 2026 +0300
+
+    fixed merge conflict
+
+commit ff9b279fddb9902e40cbaa894febbeb8d671aebc
+Author: Oleksandr <oleksandrn1106@gmail.com>
+Date:   Fri Oct 23 09:58:56 2026 +0300
+
+    lowered text hello
+
+commit 648e6dbf8ab6076eef3a8e31824ddb01246e0068 (testing/feature, feature)
+Author: Oleksandr <oleksandrn1106@gmail.com>
+Date:   Fri Oct 23 09:54:46 2026 +0300
+
+    added another sentence
+
+commit 2e5eba7123b5fbb24f32636c6dcf4a26f90b6725
+Author: Oleksandr <oleksandrn1106@gmail.com>
+Date:   Fri Oct 23 09:53:39 2026 +0300
+
+    added new sentence
+
+commit 2b2834d32800f3fb0bb9962c20f31f8e0c6a7973
+Author: Oleksandr <oleksandrn1106@gmail.com>
+Date:   Fri Oct 23 09:52:13 2026 +0300
+
+    changed text to hello everyone
+
+commit 6cbe3588e0d60cc710a2eac19b2e5e4b8661ce4b
+Author: Oleksandr <oleksandrn1106@gmail.com>
+Date:   Fri Oct 23 09:49:28 2026 +0300
+
+    added text hello
+
+commit 0245d48ff93f5d2f78199251b63d5f52d99a66b2 (origin/main, origin/HEAD)
+Author: oleksandr-nn <oleksandrn1106@gmail.com>
+Date:   Fri Oct 23 09:46:42 2026 +0300
+
+    Add files via upload
+
+commit 73d97c73f8bdd5b40a9997e8054f3c2d46b5974e
+Author: oleksandr-nn <oleksandrn1106@gmail.com>
+Date:   Fri Oct 23 09:45:32 2026 +0300
+
+    Initial commit
+Asus@ASUS MINGW64 ~/testing (main)
+$ git log --merges
+commit 23d0bbf71a56c90bdad44732c92d7ddfb1a0fc12
+Merge: ff9b279 648e6db
+Author: Oleksandr <oleksandrn1106@gmail.com>
+Date:   Fri Oct 23 10:01:37 2026 +0300
+
+    fixed merge conflict
